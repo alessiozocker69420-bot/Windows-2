@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Web-Desktop</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="desk"><div id="icons"></div></div>
+<div id="start"><input id="sq" placeholder="Apps suchen"><div id="apps"></div><div class="usr">👤 Nutzer</div></div>
+<div id="menu"></div><canvas id="mx"></canvas>
+<div id="bar"><button id="sbtn">⊞</button><div id="tasks"></div><div id="tray"><span id="net"></span><span id="clk"></span></div></div>
+<script src="script.js"></script>
+<script>if('serviceWorker'in navigator)navigator.serviceWorker.register('service-worker.js').catch(()=>{})</script>
+</body></html>
